@@ -30,7 +30,7 @@ print(e , type(e))
 #Boolean is special , its always true expect at 0
 j = bool(10)
 k = bool(0)
-l = bool(-72)
+l = bool(-72.45)
 
 print(j , type(j))
 print(k , type(k))
