@@ -1,0 +1,6 @@
+print("wuwuwuwuuwuw") 
+print("Please input your name:")
+n=str(input())
+print("Input where you live:")
+p=str(input())
+print(f"So you are {n} living in {p}? hmm go fuck yourself")
