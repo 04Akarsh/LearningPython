@@ -18,3 +18,10 @@ print("is 5 equal to or less than 7 ?" , 5 <= 7)
 print("is 5 equal to or more than 7 ?" , 5 >= 7)
 print("is 5 equal to 7 ?", 5 == 7)
 print("is 5 not equal to 7 ?" , 5 != 7)
+
+# 3) Logical operators (and , or , not)
+
+print("\nLogical operators :")
+print("\nAND operator returns true only if all cases are true , \nfor ex : 5 > 7 and 7 > 5 is" , 5>7 and 5<7)
+print("OR returns true if atleast one case is true , for ex: 5 > 7 or 7 > 5 is " , 5>7 or 7>5)
+print("NOT inverts a boolean value , for ex : not 5 > 7 is" , not 5 >7 , "(Not can be used with or without () like not (5>7) is same as not 5>7)")
