@@ -10,6 +10,7 @@ print("Modulus 5 % 7 =", 5 % 7 ,"(Always returns the remainder in division)")
 print("Modulus 7 % 5 =" , 7 % 5 )
 print("Exponentiation 5 ** 7 =" ,  5**7 , "(5 to the power of 7)" )
 
+print("\n-------------")
 # 2) Realtional operators (> , < , >= , <= , == , !=)
 print("\nRELATIONAL OPERATORS")
 print("\nis 5 > 7 ?" , 5 > 7 )
@@ -18,7 +19,7 @@ print("is 5 equal to or less than 7 ?" , 5 <= 7)
 print("is 5 equal to or more than 7 ?" , 5 >= 7)
 print("is 5 equal to 7 ?", 5 == 7)
 print("is 5 not equal to 7 ?" , 5 != 7)
-
+print("\n-------------")
 # 3) Logical operators (and , or , not)
 
 print("\nLogical operators :")
