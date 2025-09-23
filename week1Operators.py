@@ -26,3 +26,57 @@ print("\nLogical operators :")
 print("\nAND operator returns true only if all cases are true , \nfor ex : 5 > 7 and 7 > 5 is" , 5>7 and 5<7)
 print("OR returns true if atleast one case is true , for ex: 5 > 7 or 7 > 5 is " , 5>7 or 7>5)
 print("NOT inverts a boolean value , for ex : not 5 > 7 is" , not 5 >7 , "(Not can be used with or without () like not (5>7) is same as not 5>7)")
+
+
+
+# Python Operator Precedence (Highest to Lowest)
+
+# 1. Parentheses
+#    ()
+#    Used to group expressions and override precedence
+
+# 2. Exponentiation
+#    **
+#    Right-to-left associativity
+
+# 3. Unary plus, minus, bitwise NOT
+#    +x, -x, ~x
+
+# 4. Multiplication, Division, Floor Division, Modulus
+#    *, /, //, %
+
+# 5. Addition and Subtraction
+#    +, -
+
+# 6. Bitwise Shift Operators
+#    <<, >>
+
+# 7. Bitwise AND
+#    &
+
+# 8. Bitwise XOR
+#    ^
+
+# 9. Bitwise OR
+#    |
+
+# 10. Comparison Operators
+#     ==, !=, >, >=, <, <=, is, is not, in, not in
+
+# 11. Logical NOT
+#     not
+
+# 12. Logical AND
+#     and
+
+# 13. Logical OR
+#     or
+
+# 14. Conditional Expression
+#     x if condition else y
+
+# 15. Assignment Operators
+#     =, +=, -=, *=, /=, %=, //=, **=, &=, |=, ^=, >>=, <<=
+
+# 16. Lambda Expression
+#     lambda arguments: expression

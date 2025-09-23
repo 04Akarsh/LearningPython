@@ -24,3 +24,5 @@ print(type(L[2]))
 
 #hhh
 
+dob = input("day:" , "month:" , "year:")
+print(dob)
