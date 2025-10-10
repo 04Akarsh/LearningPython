@@ -1,0 +1,42 @@
+
+name = input()
+if name == "odd_num_check" or name == "perfect_square_check" or name == "divisibility_check":
+    number = int(input())
+elif name == "vowel_check" or name == "palindrominator":
+    text = input()
+elif name == "simple_interest":
+    principal_amount = int(input())
+    n_years = int(input())
+else:
+  print("Invalid Operation")
+if name == "odd_num_check" : #check whether the input is odd
+    if number % 2 != 0 :
+        print("yes")
+    else :
+        print("no")
+elif name == "perfect_square_check" : #check whether the input is a perfect square
+     if number > 0 and (number ** 0.5) % 1 == 0:
+         print("yes")
+     else:
+         print("no")
+elif name == "vowel_check":
+      if "a" in text or "e" in text or "i" in text or "o" in text or "u" in text or "A" in text or "E" in text or "I" in text or "O" in text or "U" in text:
+        print("yes")
+      else :
+        print("no")
+elif name == "divisibility_check":
+      if number % 2 == 0 and number % 3 == 0:
+         print("divisible by 2 and 3")
+      elif number % 2 == 0:
+         print("divisible by 2")
+      elif number % 3 == 0:
+         print("divisible by 3")
+      else :
+         print("not divisible by 2 and 3")
+elif name == "palindrominator":
+      print(text + text[:-1][::-1])
+elif name == "simple_interest":
+    if n_years < 10:
+      print(round((principal_amount*5*n_years)/100))
+    else:
+      print(round((principal_amount*8*n_years)/100))
